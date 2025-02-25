@@ -52,12 +52,6 @@ Feature engineering is essential in machine learning for several reasons:
 - **Lagged Features**: Used previous days' prices as features to predict the next day’s price.
 - **Volume Features**: Created features based on volume, such as the average trading volume over the last few days.
 
-After feature engineering, the columns included:
-```plaintext
-Index(['open', 'high', 'low', 'close', 'volume', 'SMA_5', 'SMA_20', 'SMA_50',
-       'SMA_200', 'price_change', 'pct_change', 'Lag1', 'Lag2', 'volume_5',
-       'target'], dtype='object').
-
 ## Data Visualization
 - **Price Trends Over Time**: Plotted the close price over time to analyze trends.
 - **Moving Averages**: Visualized moving averages to smooth out short-term fluctuations and highlight longer-term trends.
@@ -113,3 +107,12 @@ Both models demonstrated strong predictive performance, with R² values close to
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/apple-stock-prediction.git
+
+After feature engineering, the columns included:
+```plaintext
+Index(['open', 'high', 'low', 'close', 'volume', 'SMA_5', 'SMA_20', 'SMA_50',
+       'SMA_200', 'price_change', 'pct_change', 'Lag1', 'Lag2', 'volume_5',
+       'target'], dtype='object').
+
+
+
