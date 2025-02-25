@@ -1,5 +1,3 @@
-# Stock-Prediction
-
 # Apple Stock Market Prediction M.L
 
 ## Project Overview
@@ -59,3 +57,59 @@ After feature engineering, the columns included:
 Index(['open', 'high', 'low', 'close', 'volume', 'SMA_5', 'SMA_20', 'SMA_50',
        'SMA_200', 'price_change', 'pct_change', 'Lag1', 'Lag2', 'volume_5',
        'target'], dtype='object').
+
+## Data Visualization
+- **Price Trends Over Time**: Plotted the close price over time to analyze trends.
+- **Moving Averages**: Visualized moving averages to smooth out short-term fluctuations and highlight longer-term trends.
+- **Volume Analysis**: Analyzed stock price movement along with trading volume to indicate strong or weak trends.
+- **Correlation Matrix**: Analyzed relationships between different stock price attributes.
+
+## Feature Scaling
+Feature scaling is important in stock price prediction because:
+- It brings all features to a similar scale, which is crucial for models that rely on distance calculations.
+- It helps gradient descent converge faster by stabilizing updates.
+- It ensures that all features contribute equally to distance-based models like K-Nearest Neighbors (KNN) and Support Vector Machines (SVM).
+
+We used StandardScaler for feature scaling.
+
+## Time Series Processing
+Conducted time series processing, including:
+- **Resampling**
+- **Rolling Statistics**
+- **Differencing**
+
+## Model Implementation
+
+### Linear Regression
+- **Training Results**:
+  - MSE: 2.1719
+  - MAE: 1.0510
+  - RMSE: 1.4737
+  - R²: 0.9952
+
+- **Testing Results**:
+  - MSE: 3.4483
+  - MAE: 1.2884
+  - RMSE: 1.8570
+  - R²: 0.9772
+
+### Polynomial Regression
+- **Training Results**:
+  - MSE: 1.9077
+  - MAE: 1.0131
+  - RMSE: 1.3812
+  - R²: 0.9958
+
+- **Testing Results**:
+  - MSE: 9.4741
+  - MAE: 2.3352
+  - RMSE: 3.0780
+  - R²: 0.9372
+
+## Conclusion
+Both models demonstrated strong predictive performance, with R² values close to 1, indicating a good fit. Linear Regression outperformed Polynomial Regression in testing metrics, suggesting it may be more suitable for this dataset.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/apple-stock-prediction.git
