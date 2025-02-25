@@ -1,0 +1,22 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+yfinance
+tensorflow
+keras
+jupyter
+
+Explanation of the Libraries:
+numpy: Fundamental package for numerical computing.
+pandas: Data manipulation and analysis.
+matplotlib: Plotting library for data visualization.
+seaborn: Statistical data visualization based on Matplotlib.
+scikit-learn: Machine learning library for Python.
+statsmodels: Statistical modeling and hypothesis testing.
+yfinance: Library to access financial data from Yahoo Finance.
+tensorflow: Framework for machine learning and deep learning (if you plan to use neural networks).
+keras: High-level API for building and training deep learning models.
+jupyter: Interactive computing environment to run and share your code.
