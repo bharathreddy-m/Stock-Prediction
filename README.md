@@ -115,5 +115,21 @@ Both models demonstrated strong predictive performance, with R² values close to
    ```bash
    git clone https://github.com/yourusername/apple-stock-prediction.git
    ```
+## Future Work
+Future iterations may explore the following:
+- **Hyperparameter Tuning:** Implement advanced techniques like Grid Search and Random Search for model optimization.
+- **Feature Engineering:** Investigate new features or transformations to enhance model accuracy.
+- **Ensemble Methods:** Combine predictions from different models to improve overall prediction performance.
+- **Deployment:** Develop a web application or API to enable real-time predictions using the best-performing model.
 
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
 
+## Acknowledgments
+The Ames Housing dataset is provided by Kaggle. Thanks to the contributors of libraries used in this project, including Pandas, NumPy, and Scikit-learn.
+
+## Requirements
+To run this project, install the required packages listed in [requirements.txt](requirements.txt) file
+
+## Contributing
+We welcome contributions to this project! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
